@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password generator</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="box">
+        <div class="generate-box">
+          <input type="text" name="" id="randomText" readonly />
+          <!-- <span id="randomText"></span> -->
+        </div>
+        <div class="input-data">
+          Password Length
+          <input
+            type="number"
+            name=""
+            id="input-length"
+            class="input-length"
+            value="5"
+          />
+        </div>
+        <div class="input-data">
+          <label for="upper-case"> Contains UpperCase</label>
+          <input type="checkbox" name="" id="upper-case" value="" checked />
+        </div>
+        <div class="input-data">
+          <label for="lower-case"> Contains LowerCase</label>
+          <input type="checkbox" name="" id="lower-case" />
+        </div>
+        <div class="input-data">
+          <label for="numbers"> Contains Numbers</label>
+          <input type="checkbox" name="" id="numbers" />
+        </div>
+        <div class="input-data">
+          <label for="symbols"> Contains Symblos</label>
+          <input type="checkbox" name="" id="symbols" />
+        </div>
+        <div class="submit-box">
+          <input type="button" id="ClickMe" value="Generate" />
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
